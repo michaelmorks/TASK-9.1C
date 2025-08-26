@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Login page background */
+  .login-page {
+    background: linear-gradient(135deg, #6b73ff, #000dff);
+  }
+  
+  /* Dashboard page background */
+  .dashboard-page {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  }
+  
+  /* Container styling */
+  .container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  /* Login container background */
+  .login-container {
+    background-color: white;
+    color: #333;
+  }
+  
+  /* Dashboard container background */
+  .dashboard-container {
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  /* Headings */
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effects */
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Specific button colors */
+  .login-container button {
+    background-color: #6b73ff;
+    color: white;
+  }
+  
+  .login-container button:hover {
+    background-color: #000dff;
+  }
+  
+  .dashboard-container button {
+    background-color: #ff4b2b;
+    color: white;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #ff3a1a;
+  }
+  
